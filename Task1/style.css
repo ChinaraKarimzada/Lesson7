@@ -1,0 +1,166 @@
+@import url("https://fonts.googleapis.com/css2?family=Alkatra&family=Dancing+Script&family=Lobster&family=Roboto+Condensed&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+
+/* Header Start */
+
+header {
+    color: #109E97;
+    font-family: Lobster;
+    text-align: center;
+    font-size: 3rem;
+}
+
+/* Header End */
+
+
+/* MainSection Start */
+
+#MainSection {
+    background: url('image/bg.jpg') center/cover;
+    width: 100%;
+    margin: auto;
+    padding-bottom: 10px;
+}
+
+#MainSection nav {
+    background-color: #109E97;
+}
+
+#MainSection nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+#MainSection nav ul li {
+    color: white;
+    font-size: 1.2em;
+    padding: 30px;
+    border-left: 2px solid white;
+}
+
+#MainSection #container {
+    width: 100%;
+    margin: auto;
+    display: flex;
+}
+
+#MainSection .container2 {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+
+#imgBooks {
+    width: 15%;
+    margin: auto;
+    text-align: right;
+    margin: 120px 0px;
+    margin-left: 300px;
+}
+
+#paragraphs {
+    width: 35%;
+    margin: auto;
+    margin-top: 65px;
+    text-align: left;
+}
+
+#paragraphs p {
+    font-size: 1.2em;
+}
+
+button {
+    background-color: #109E97;
+    color: white;
+    font-size: 1em;
+    padding: 10px;
+    border: none;
+}
+
+.container3 {
+    width: 5%;
+    margin: auto;
+    margin-top: 120px;
+}
+
+.rad1 {
+    background-color: #109E97;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}
+
+#rad2 {
+    background-color: #585858;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    margin-top: 15px;
+}
+
+/* MainSection End */
+
+
+/* BodySection Start */
+
+#BodySection {
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+#BodySection h2 {
+    font-size: 2em;
+    font-weight: 700;
+    font-family: 'Roboto';
+}
+
+#books {
+    width: 60%;
+    margin: auto;
+    border: 2px solid #916A6A;
+    padding-bottom: 15px;
+}
+
+#books .item {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+
+.item .bk1 {
+    width: 25%;
+    margin: auto;
+    border: 2px solid #109E97;
+    padding: 25px;
+}
+
+.item .bk1 img {
+    width: 150px;
+}
+
+.bk1 a{
+    text-decoration: none;
+    color: #0000EE;
+}
+
+/* BodySection End */
+
+
+/* Footer Start */
+
+footer{
+    width: 100%;
+    color: white;
+    margin: auto;
+    text-align: center;
+    background-color: #109E97;
+    padding: 30px 0px;
+}
+
+/* Footer End */
